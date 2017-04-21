@@ -10,33 +10,8 @@ title: Halium Project
 
 <div class="w3-container w3-padding">
 	<h2>Introduction</h2>
+
+	<p>Halium is a project that aims to unify the hardware adaption layers (HAL) of different projects targetting mobile android devices. For end-users, Halium will just be a part of their phone system, that enables using sensors, camera and hardware-accelerated graphaics. Technically, a Halium base consists of libhybris, an android kernel, and an android rootfs or image supplying binary drivers.</p>
 	
-	<p>Earlier it was suggested to our projects that we should collaborate with other
-	communities working on making GNU/Linux available to android phones, and that
-	idea made lot of sense to us. Below is some details about the current situation
-	and how this idea aims to solve it.</p>
-
-	<p>Currently Ubuntu Touch, SailfishOS/Mer, Plasma Mobile and others have
-	different android source trees and methods on how our stacks are built. There is
-	lot of fragmentation on the following areas:</p>
-
-	- Android source tree<br>
-	- How android init is started (droid-hal-init vs lxc container vs chroot
-	etc..)<br>
-	- How images are flashed to device, (flash cm first v/s flash system directly)<br>
-	- ...<br>
-
-	<p>But ideally these parts wouldn’t need to be separate, because we all have the
-	same goal in the end. Each OS make use of android binary drivers using projects like
-	libhybris, ofono, libcamera, audioflinger glue etc.</p>
-
-	<p>Instead of being fragmented and everyone having to do the same job in a different way we have come up with idea to have a common base for all the OSs. The common base would include Linux kernel + Android HAL + libhybris shared between all the OSs. Less fragmentation would mean more common resources and would be a huge boon for porting efforts.
-	This kind of approach would have the following benefits:</p>
-
-
-	- Shared porting effort, port once and use everywhere<br>
-	- More streamlined HAL<br>
-	- Makes it easier for other distributions to run on mobile devices<br>
-	- Common ground for communication between the different projects<br>
-
+	<p>The project is still at it's start, but you can follow our project at <a href="https://github.com/halium/">Github</a>.
 </div>
