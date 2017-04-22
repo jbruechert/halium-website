@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Kickoff meeting
+title: The kickoff meeting
 ---
 
 Last meeting we mainly talked about the organisation of our project. Like every time, not everybody who wanted could take part, but Bushan Shah, Marius Gripsgard, Rohan Garg, Topias (toxip) and Me (@JBBgameich) could discuss.
