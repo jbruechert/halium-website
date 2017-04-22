@@ -18,7 +18,8 @@ email: admin@halium.org
 description: >
   Halium is a project about creating a common base for many libhybris based hardware adaptions
 baseurl: ""
-url: ""
+url: "https://halium.org"
+host: halium.org
 twitter_username: haliumproject
 github_username:  halium
 
